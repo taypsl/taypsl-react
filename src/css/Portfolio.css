@@ -1,0 +1,131 @@
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.pink { 
+  color: #ff00bf;
+}
+
+.Portfolio {
+	width: 100vw;
+	height: 100vh;
+	background-color: #fcfc9d;
+}
+
+/* slider */
+.slider {
+  height: 80%;
+  width: 80%;
+  margin-left: 4rem;
+  margin-right: auto;
+  background: #ff00bf;
+  position: fixed;
+  top: 45px;
+}
+
+.slider-title {
+  position: absolute;
+  left: 10rem;
+  top: 49.5%;
+  color: #ffffff;
+  font-size: 3.3rem;
+}
+
+.slider-title:hover {
+  opacity: 0.5;
+  transform: scale(1.1);
+  transition: all ease-in .2s;
+}
+
+.slider-overlay {
+  position: fixed;
+  top: 45px;
+  background-color: #ff00bf;
+  opacity: .6;
+  width: 80%;
+  height: 80%;
+}
+
+.slider-hashtags {
+  text-align: left;
+  margin-top: 2%;
+}
+
+.slider h1, .slider h2, .slider h3, .slider h4, .slider h5, .slider h6 {
+  margin: 0;
+}
+.slider .slide {
+  height: 100%;
+  width: 100%;
+}
+.slider .dotsContainer {
+  position: absolute;
+  bottom: 7%;
+  width: 100%;
+  text-align: center;
+  z-index: 99999;
+}
+.slider .dotsContainer .dot {
+  background: #222;
+  padding: 0px 8px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 120px;
+}
+.slider .dotsContainer .isCurrent {
+  background: #fff;
+}
+.slider .nextArrow {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  cursor: pointer;
+  transition: all ease-in .2s;
+  color: #fff;
+}
+.slider .nextArrow:hover {
+  opacity: 0.5;
+  transform: scale(1.4);
+  transition: all ease-in .2s;
+}
+.slider .backArrow {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  cursor: pointer;
+  color: #fff;
+  transition: all ease-in .2s;
+}
+.slider .backArrow:hover {
+  opacity: 0.5;
+  transform: scale(1.4);
+  transition: all ease-in .2s;
+}
+
+/* Menu Links */
+.Menu {
+  top: 125px;
+  right: 45px;
+  max-width: 120px;
+  position: absolute;
+}
+
+.Menu-links:hover {
+	color: #ff00bf;
+  cursor: pointer;
+}
+
+.Menu-link {
+  display: block;
+  text-align: right;
+  line-height: 60px;
+}
+
+.Menu-link--active {
+  text-decoration: none;
+}

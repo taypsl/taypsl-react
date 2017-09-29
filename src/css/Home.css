@@ -1,0 +1,169 @@
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+
+.Home {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.frame {
+  background-image: url(http://res.cloudinary.com/ddvn6aemk/image/upload/v1503699070/background-24_lhqmhw.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+/*  -webkit-clip-path: circle(80px);
+*/  clip-path: circle(150px);
+  z-index: -100;
+}
+
+.links {
+  z-index: 10;
+}
+
+.hidden-links {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.btn {
+  position: absolute;
+}
+
+.about-btn {
+  width: 250px;
+  left: 15%;
+  top: 55%;
+}
+
+.contact-btn {
+  width: 200px;
+  right: 20%;
+  top: 50%;
+}
+
+.portfolio-btn {
+  width: 155px;
+  right: 40%;
+  top: 70%;
+}
+
+.about-btn-ol {
+  width: 250px;
+  left: 15%;
+  top: 55%;
+}
+
+.contact-btn-ol {
+  width: 200px;
+  right: 20%;
+  top: 50%;
+}
+
+.portfolio-btn-ol {
+  width: 155px;
+  right: 40%;
+  top: 70%;
+}
+
+/* signature */
+.svg-container {
+  position: fixed;
+  /*z-index: 10000;*/
+  width: 80%;
+  margin: 2% 10% 0 10%;
+}
+
+.signature {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+/*.signature-stroke {
+  fill: none;
+  stroke: #000;
+  stroke-dasharray: 1700;
+  stroke-dashoffset: 1700;
+  stroke-width: 5;
+}
+
+.one {
+  animation: writing 1.5s linear forwards;
+
+}
+
+.two {
+  animation: writing 1.5s linear forwards;
+  -webkit-animation-delay: 0.25s; 
+  animation-delay: 0.25s;
+
+}
+
+.three {
+  animation: writing 2s linear forwards;
+  -webkit-animation-delay: 0.5s; 
+  animation-delay: 0.5s;
+}
+
+.four {
+  animation: writing 2s linear forwards;
+  -webkit-animation-delay: 1.7s; 
+  animation-delay: 1.7s;
+}
+
+.five {
+  animation: writing 2.5s linear forwards;
+  -webkit-animation-delay: 2.15s; 
+  animation-delay: 2.15s;
+}
+
+.six {
+  animation: writing 2s linear forwards;
+  -webkit-animation-delay: 2.7s; 
+  animation-delay: 2.7s;
+}
+
+.seven {
+  animation: writing 2.5s linear forwards;
+  -webkit-animation-delay: 3s; 
+  animation-delay: 3s;
+}
+
+.eight {
+  animation: writing 3s linear forwards;
+  -webkit-animation-delay: 5.2s;
+  animation-delay: 5.2s;
+}
+
+@keyframes reveal {
+  to { opacity: 100; }
+}
+
+@keyframes writing {
+  0% {
+    stroke-dashoffset: 1700;
+  }
+  45% {
+    stroke-width: 7;
+  }
+  90% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-width: 10;
+  }
+}*/

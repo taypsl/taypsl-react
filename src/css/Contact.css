@@ -1,0 +1,132 @@
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+
+
+.Contact {
+	background-color: #fcb8e2;
+	width: 100vw;
+	height: 100vh;
+}
+
+.blob {
+	width: 60%;
+	height: 60%;
+	position: absolute;
+}
+
+.linkedin-blob {
+	width: 30%;
+	height: 30%;
+}
+
+.twitter-blob {
+	width: 25%;
+	height: 25%;
+}
+
+.git-blob {
+    width: 28%;
+    height: 28%;
+}
+
+.email-blob {
+    opacity: 0.9;
+    transform: scale(1.5);
+    animation: moveClouds 35s linear infinite, sideWaysRight 25s ease-in-out infinite alternate;
+}
+
+.email-blob:hover {
+	width: 61%;
+	height: 61%;
+}
+
+.twitter-blob {
+    left: 50vw;
+    opacity: 0.9;
+/*    transform: scale(0.6);
+*/    animation: downClouds 40s linear infinite, sideWaysLeft 45s ease-in-out infinite alternate;
+}
+
+.twitter-blob:hover {
+	width: 27%;
+	height: 27%;
+}
+
+.linkedin-blob {
+    left: 10vw;
+    opacity: 0.9;
+/*    transform: scale(0.8);
+*/    animation: moveClouds 40s linear infinite, sideWaysLeft 20s ease-in-out infinite alternate;
+}
+
+.linkedin-blob:hover {
+	width: 33%;
+	height: 33%;
+}
+
+.git-blob {
+    left: 17vw;
+    opacity: 0.9;
+/*    transform: scale(0.8);
+*/    animation: downClouds 40s linear infinite, sideWaysRight 20s ease-in-out infinite alternate;
+}
+
+.git-blob:hover {
+    width: 30%;
+    height: 30%;
+}
+
+@keyframes moveClouds { 
+    0% { 
+        top: 500px;
+    }
+    50% { 
+        top: 0px;
+    }
+    100% { 
+        top: 500px;
+    }
+}
+
+@keyframes downClouds {
+  0% {
+    top: 30px;
+  }
+  50%: {
+    top: 500px;
+  }
+  100%: {
+    top: 30px;
+  }
+}
+
+@keyframes sideWaysLeft { 
+    0% { 
+        margin-left:0px;
+    }
+    50% { 
+        margin-left:250px;
+    }
+    100% { 
+        margin-left:0;
+    }
+}
+
+@keyframes sideWaysRight { 
+    0% { 
+        margin-left:200px;
+    }
+    50% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:200px;
+    }
+}
