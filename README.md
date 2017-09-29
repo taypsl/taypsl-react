@@ -1,6 +1,4 @@
 #Taypsl Portfolio
-[Link to Demo](https://)
-![logo](/public/logo_2.svg/)
 
 ## About 
 - developer
@@ -12,8 +10,9 @@
 
 ## To do
 - [x] UI Design
-- [ ] About
-- [ ] Main page
-- [ ] Contact
+- [x] About
+- [x] Main page
+- [x] Contact
 - [ ] Forms
 - [ ] Refactor
+- [ ] Deploy
