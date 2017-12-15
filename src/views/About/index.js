@@ -17,13 +17,13 @@ class About extends Component {
         <Close />
         <div className="flex-container">
           <div className="flex-item">
-          	<p className="About-text">I’m a <Link to='/portfolio'>web developer</Link> specializing in front-end development with JavaScript, HTML, CSS and JS libraries.</p>
+          	<p className="About-text">I’m a <Link to='/work'>web developer</Link> specializing in front-end development with JavaScript, HTML, CSS and JS libraries.</p>
           </div>
           <div className="flex-item">
-          	<p className="About-text">In a past life I worked as a <Link to='/portfolio'>ux designer</Link>, creating and testing digital consumer products.</p>
+          	<p className="About-text">In a past life I worked as a <Link to='/work'>ux designer</Link>, creating and testing digital consumer products.</p>
           </div>
           <div className="flex-item">
-          	<p className="About-text">Other things I sometimes am: part-time <Link to='/portfolio'>bicycle restorer</Link>, on-demand <Link to='/portfolio'>print designer</Link>, and year round <Link to='/portfolio'>Halloween enthusiast</Link>.</p>
+          	<p className="About-text">Other things I sometimes am: part-time <Link to='/misc'>bicycle restorer</Link>, on-demand <Link to='/work'>print designer</Link>, and year round <Link to='/misc'>Halloween enthusiast</Link>.</p>
           </div>
         </div>
         </CSSTransitionGroup>
