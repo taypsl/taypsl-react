@@ -5,8 +5,8 @@
       "title": "D-BRAD'S BEST SONGS OF 2017",
       "imgURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/q_60/v1513273669/portfolio/Screen_Shot_2017-12-14_at_9.46.32_AM.png",
       "projectURL": "http://dbradbestsongs2017.com/",
-      "hashtags": "#ReactJS, #CSS3, #illustrator",
-      "description": "",
+      "hashtags": "#ReactJS, #CSS3, #illustrator, #npm",
+      "description": "Experience 2017's most anticipated 'Best Songs' list with this totally revamped, interactive countdown site.",
       "_id": "1"
     }, 
     {
@@ -14,7 +14,7 @@
       "title": "MX-LIST",
       "imgURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/q_60/v1513273966/portfolio/Screen_Shot_2017-12-14_at_9.51.16_AM.png",
       "projectURL": "https://mxlist.herokuapp.com/",
-      "hashtags": "#JS, #CSS, #HTML, #React, #illustrator",
+      "hashtags": "#JS, #CSS, #HTML, #node, #express, #illustrator",
       "description": "A throwback to the days of sharing of mix tapes, MX List is a music blogging app that enables users to easily create and share annotated playlists with friends and family.",
       "_id": "2"
     },
@@ -22,8 +22,8 @@
       "category": "WEB",
       "title": "EXPLORE THE WIKIHOOD",
       "imgURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/q_60/v1513273974/portfolio/Screen_Shot_2017-12-14_at_9.51.26_AM.png",
-      "projectURL": "https://github.com/taypsl/explore-the-wikihood",
-      "hashtags": "#JS, #CSS, #HTML, #illustrator",
+      "projectURL": "http://taypsl.github.io/explore-the-wikihood/",
+      "hashtags": "#JS, #CSS, #HTML, #AJAX, #illustrator",
       "description": "WikiHood lets you explore the world around you through location-based Wikipedia articles. Enter in a location or share your own to discover notable landmarks, fascinating histories, and unexpected events right in your own backyard. You might be surprised what you’ll find in your WikiHood!",
       "_id": "3"
     },
@@ -31,8 +31,8 @@
       "category": "UX",
       "title": "MOBILE APP REDESIGN (UX)",
       "imgURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/q_60/v1513273979/portfolio/Screen_Shot_2017-12-14_at_9.52.07_AM.png",
-      "projectURL": "https://github.com/taypsl/explore-the-wikihood",
-      "hashtags": "#UX, #ui, #mobile, #iOS, #redesign",
+      "projectURL": "https://taylorparsell.com/portfolio/mobile-project/",
+      "hashtags": "#UI, #mobile, #iOS, #redesign",
       "description": "The goal of this project was to redesign an existing mobile app to inspire teenagers to practice safer driving habits and to improve user engagement with the application.",
       "_id": "4"
     },
@@ -41,7 +41,7 @@
       "title": "MOBILE PRELICENSE APP",
       "imgURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/q_60/v1513273967/portfolio/Screen_Shot_2017-12-14_at_9.52.19_AM.png",
       "projectURL": "https://taylorparsell.com/portfolio/mobile-project-2/",
-      "hashtags": "#UX, #ui, #mobile, #iOS, #design",
+      "hashtags": "#UI, #mobile, #iOS, #design",
       "description": "The goal of this project was to design a mobile application to improve the driver’s learning experience for teen drivers and their parents.",
       "_id": "5"
     },
@@ -50,8 +50,8 @@
       "title": "CAREER BLUEPRINT",
       "imgURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/c_scale,h_928/v1513280868/portfolio/Screen_Shot_2017-12-14_at_11.44.41_AM.png",
       "projectURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/c_scale,w_2322/v1503505157/dad_retirement-08_dpt8wi.png",
-      "hashtags": "#PRINT, #illustrator, #retirement, #poster",
-      "description": "",
+      "hashtags": "#illustrator, #retirement, #poster",
+      "description": "Commemorative resume & signing poster designed for a retirement party.",
       "_id": "6"
     },
     {
@@ -59,8 +59,8 @@
       "title": "SAFG SUMMER FLYER",
       "imgURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/c_scale,h_837/v1513280946/portfolio/Screen_Shot_2017-12-14_at_11.48.23_AM.png",
       "projectURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/v1503508610/2017SummerCamp_v2_Page_1_r1lqly.png",
-      "hashtags": "#PRINT, #illustrator, #design, #scientificadventures, #flyer",
-      "description": "",
+      "hashtags": "#illustrator, #design, #scientificadventures, #flyer",
+      "description": "Scientific Adventures for Girls Summer flyer design.",
       "_id": "7"
     },
     {
@@ -68,17 +68,17 @@
       "title": "SAFG ENGINEERING POSTER",
       "imgURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/c_scale,h_856/v1513280977/portfolio/Screen_Shot_2017-12-14_at_11.49.15_AM.png",
       "projectURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/c_scale,w_1124/v1503508898/safg_EDP_Page_09_h9rtm1.png",
-      "hashtags": "#PRINT, #illustrator, #design, #scientificadventures, #poster",
-      "description": "",
+      "hashtags": "#illustrator, #design, #scientificadventures, #poster",
+      "description": "Engineering Design Poster custom design for Scientific Adventures for Girls.",
       "_id": "8"
     },
     {
       "category": "PRINT",
-      "title": "THANKSGIVING 5K TEE",
+      "title": "MIRACLE MAN 5K TEE",
       "imgURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/c_scale,h_827,q_60/v1513277940/portfolio/dp5k.png",
       "projectURL": "http://res.cloudinary.com/ddvn6aemk/image/upload/c_scale,h_827,q_60/v1513277940/portfolio/dp5k.png",
-      "hashtags": "#PRINT, #illustrator, #apparel, #design",
-      "description": "",
+      "hashtags": "#illustrator, #apparel, #design",
+      "description": "Custom shirt design.",
       "_id": "9"
     }      
 	]

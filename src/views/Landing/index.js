@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import image from '../../img/img@3x.png';
 import signature from '../../img/sunset-sig.svg';
 import '../../css/Landing.css';
-// import BurgerNavbar from '../../components/BurgerMenu';
 
 export default class Home extends Component {
 	render() {
@@ -17,6 +16,7 @@ export default class Home extends Component {
 
 				<img className="Landing-sig" src={signature} alt="Taylor Parsell" />
 				<img className="Landing-image" src={image} alt="also Taylor Parsell" />
+				<p className="Copyright">© 2017 taypsl</p>
 				
 			</div>
 		)

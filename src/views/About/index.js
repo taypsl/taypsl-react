@@ -17,13 +17,11 @@ class About extends Component {
         <Close />
         <div className="flex-container">
           <div className="flex-item">
-          	<p className="About-text">I’m a <Link to='/work'>web developer</Link> specializing in front-end development with JavaScript, HTML, CSS and JS libraries.</p>
+            I’m a <Link to='/work'>web developer</Link> specializing in front-end development with JavaScript, HTML, CSS and JS libraries.
           </div>
-          <div className="flex-item">
-          	<p className="About-text">In a past life I worked as a <Link to='/work'>ux designer</Link>, creating and testing digital consumer products.</p>
+          <div className="flex-item">In a past life I worked as a <Link to='/work'>ux designer</Link>, creating and testing digital consumer products.
           </div>
-          <div className="flex-item">
-          	<p className="About-text">Other things I sometimes am: part-time <Link to='/misc'>bicycle restorer</Link>, on-demand <Link to='/work'>print designer</Link>, and year round <Link to='/misc'>Halloween enthusiast</Link>.</p>
+          <div className="flex-item">Other things I sometimes am: part-time <Link to='/misc'>bicycle restorer</Link>, on-demand <Link to='/work'>print designer</Link>, and year round <Link to='/misc'>Halloween enthusiast</Link>.
           </div>
         </div>
         </CSSTransitionGroup>
@@ -34,4 +32,4 @@ class About extends Component {
 
 export default About;
 
-// https://www.npmjs.com/package/react-hover
+// https://www.npmjs.com/package/react-hover 

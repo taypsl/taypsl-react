@@ -7,8 +7,6 @@
   transition: opacity .5s ease-in;
 }
 
-
-
 .Contact {
 	background-color: #fcb8e2;
 	width: 100vw;
@@ -37,9 +35,9 @@
 }
 
 .email-blob {
-    opacity: 0.9;
-    transform: scale(1.5);
-    animation: moveClouds 35s linear infinite, sideWaysRight 25s ease-in-out infinite alternate;
+  opacity: 0.9;
+  transform: scale(1.5);
+  animation: moveClouds 35s linear infinite, sideWaysRight 25s ease-in-out infinite alternate;
 }
 
 .email-blob:hover {
@@ -129,4 +127,31 @@
     100% { 
         margin-left:200px;
     }
+}
+
+@media screen and (max-width: 600px) {
+  email-blob {
+    opacity: 0.9;
+    transform: scale(1.5);
+/*    animation: moveClouds 35s linear infinite, sideWaysRight 25s ease-in-out infinite alternate;
+*/  }
+
+  .email-blob:hover {
+    width: 61%;
+    height: 61%;
+  }
+
+  .twitter-blob {
+      left: 50vw;
+      opacity: 0.9;
+  /*    transform: scale(0.6);
+      animation: downClouds 40s linear infinite, sideWaysLeft 45s ease-in-out infinite alternate;*/
+  }
+
+  .linkedin-blob {
+      left: 10vw;
+      opacity: 0.9;
+  /*    transform: scale(0.8);
+     animation: moveClouds 40s linear infinite, sideWaysLeft 20s ease-in-out infinite alternate;*/ 
+  }
 }

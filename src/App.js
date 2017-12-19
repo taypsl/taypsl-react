@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import { 
   BrowserRouter as Router, 
   Route
 } from 'react-router-dom';
 
-// import Home from './views/Home';
 import Landing from './views/Landing';
 import About from './views/About';
 import Contact from './views/Contact';
 import Work from './views/Work';
 import Misc from './views/Misc';
-// import Portfolio from './views/Portfolio';
 
 class App extends Component {
   render() {
@@ -25,8 +22,7 @@ class App extends Component {
             <Route path='/work' component={ Work } />
             <Route path='/contact' component={ Contact } />
             <Route path='/misc' component={ Misc } />
-{/*            <Route path='/portfolio' component={ Portfolio } />
-*/}          </div>
+          </div>
         </Router>
       </div>
     );

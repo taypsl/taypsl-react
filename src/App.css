@@ -1,26 +1,9 @@
+html, body {
+	height: 100%;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #fff;
-  height: 150px;
-  padding: 20px;
-  color: black;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .Close {
@@ -31,7 +14,18 @@
   height: 45px;
 }
 
-/*.close-icon {
-  fill: none;
-  stroke: #000000;
-}*/
+.Footer {
+	font-size: 1.5rem;
+	position: absolute;
+	bottom: 0;
+}
+
+.Footer p {
+	width: 100px;
+}
+
+@media screen and (max-width: 700px) {
+	.Footer {
+		font-size: 0.8rem;
+	}
+}

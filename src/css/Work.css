@@ -79,7 +79,7 @@
 }
 
 .Item-details-link {
-	padding: 1rem;
+	padding: 1rem 1.5rem;
 	width: 80px;
 	height: 40px;
 	background-color: black;
@@ -168,5 +168,25 @@
 	.Grid-item {
 		width: 200px;
 		height: 150px;
+	}
+	.Modal {
+		margin: 4rem 2rem;
+	  width: 250px;
+	  overflow: scroll;
+	}
+	.Overlay {
+	  width: 230px;
+	}
+	.Modal-background {
+	  top: 1rem;
+	  left: 1rem;
+	}
+	.Item-details {
+		font-size: 1.5rem;
+	}
+	.Modal-close {
+		position: fixed;
+		margin: 1.5rem;
+		top: 0.5rem;
 	}
 }
